@@ -21,3 +21,11 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+efk:
+  kibana:
+    env:
+      ELASTICSEARCH_URL: http://efk-elasticsearch-client:9200
+  logstash:
+    enabled: false
+  fluentd-elasticsearch:
+    enabled: true

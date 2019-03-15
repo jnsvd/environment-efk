@@ -7,3 +7,7 @@ dependencies:
   version: 2.3.89
   repository: http://chartmuseum.jenkins-x.io
   alias: cleanup
+- name: stable/elastic-stack
+  version: 1.5.0
+  repository: repository: http://chartmuseum.jenkins-x.io
+  alias: efk
