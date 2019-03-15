@@ -25,6 +25,12 @@ efk:
   kibana:
     env:
       ELASTICSEARCH_URL: http://efk-elasticsearch-client:9200
+    ingress:
+      enabled: true
+      hosts:
+        - kibana.34.76.149.193.nip.io
+      annotations:
+        kubernetes.io/ingress.class: nginx
   logstash:
     enabled: false
   fluentd-elasticsearch:
