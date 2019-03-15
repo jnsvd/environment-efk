@@ -9,5 +9,5 @@ dependencies:
   alias: cleanup
 - name: elastic-stack
   version: 1.5.0
-  repository: stable
+  repository: https://kubernetes-charts.storage.googleapis.com
   alias: efk
