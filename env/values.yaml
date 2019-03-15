@@ -31,7 +31,7 @@ efk:
         - kibana.34.76.149.193.nip.io
       annotations:
         kubernetes.io/ingress.class: nginx
-  logstash:
-    enabled: false
-  fluentd-elasticsearch:
-    enabled: true
+logstash:
+  enabled: false
+fluentd-elasticsearch:
+  enabled: true
