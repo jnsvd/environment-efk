@@ -34,6 +34,7 @@ efk:
   fluentd-elasticsearch:
     elasticsearch:
       host: efk-elasticsearch-client
+      logstash_prefix: fluentd-${record['kubernetes']['namespace_name']}
 logstash:
   enabled: false
 fluentd-elasticsearch:
